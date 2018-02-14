@@ -1,0 +1,2 @@
+ bigmemory=(struct node*)mmap(0, sizeof(struct node)*MESSAGE_BUFFER_SIZE, PROT_READ | PROT_WRITE,
+                                 MAP_SHARED | MAP_ANON, -1, 0); 
